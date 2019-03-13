@@ -33,7 +33,9 @@
   
      $result = mysqli_query($connect, $query);
      
-     Keterangannya fungsi mysql_query() untuk membuat database MySQL, fungsi ini membutuhkan dua parameter dan mengembalikan nilai TRUE      jika berhasil atau FALSE jika gagal.
+     Keterangannya fungsi mysql_query() untuk membuat database MySQL, fungsi ini membutuhkan dua parameter dan 
+     
+     mengembalikan nilai TRUE jika berhasil atau FALSE jika gagal.
      
 3. Berikan code query untuk menampilkan sebuah data yang ada pada ke database?
 
