@@ -22,15 +22,27 @@
 
 
 1. Berikan contoh kode keneksi untuk ke database pd php?
+
   =>$connect = mysqli_connect($host, $uname, $pass, $db);
+  
     mysqli_connect() adalah extension yang digunakan php untuk membuat koneksi dengan database .
+    
 2. Bagaimana cara anda membuat database pada phpMySQl!
+
   => contohnya kodingannya:
+  
      $result = mysqli_query($connect, $query);
+     
      Keterangannya fungsi mysql_query() untuk membuat database MySQL, fungsi ini membutuhkan dua parameter dan mengembalikan nilai TRUE      jika berhasil atau FALSE jika gagal.
+     
 3. Berikan code query untuk menampilkan sebuah data yang ada pada ke database?
+
   =>$query = "SELECT * FROM dosen WHERE id_dosen = $id_dosen";
+  
 4. Berikan code query untuk mengupdate sebuah data yang ada pada ke database?
+
   =>$query = "UPDATE dosen SET nama_dosen = '$nama_dosen', telp = '$telp' WHERE id_dosen = $id_dosen";
+  
 5. Berikan code query untuk menghapus sebuah data yang ada pada ke database?
+
   =>$query = "DELETE FROM dosen WHERE id_dosen = $id_dosen";
